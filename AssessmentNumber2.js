@@ -104,7 +104,7 @@ var myArray = [1, 2, 3, 4];
 
 var myArrayCopy = myArray.slice();
 
-console.log(myArrayCopy);
+console.log(myArrayCopy); //Testing
 
 /**
  * #8
