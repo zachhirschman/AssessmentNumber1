@@ -21,6 +21,7 @@ var me = {
  */
 
 // CODE HERE
+
 me.faveColor = "Blue";
 
 
@@ -85,7 +86,7 @@ var myFriends = ['Michael','Bekah','Scot','Denver'];
 
 // CODE HERE
 
-myFriends[4] = "Nate";
+myFriends[4] = "Kasey";
 
 console.log(myFriends);
 
