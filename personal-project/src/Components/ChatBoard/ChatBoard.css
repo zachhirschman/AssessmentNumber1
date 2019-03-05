@@ -1,0 +1,42 @@
+.Parent-container{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 4px;
+    border: solid 1px rgb(80, 104, 136);
+    width:45%;
+    height:85%;
+    margin-right:10px;
+    position: relative;
+}
+.container-Header, .footer-parent{
+    height:6%;
+    background-color:rgb(112,146,190);
+    border: solid 2px rgb(112,146,190);
+}
+.container-Header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-Header > h3{
+    color:white;
+}
+
+.footer-parent{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border:none;
+}
+
+.message-bar{
+    width:80%;
+    border-radius:50px;
+    border: solid 1px rgb(80, 104, 136);
+    padding:.6%;
+}
+.send-msg-button{
+    padding:.5%;
+}

@@ -1,0 +1,43 @@
+
+
+.logo{
+    color:white;
+    font-size:30px;
+    padding:35px;
+    padding-top: 30px;
+}
+
+.logo-container{
+    text-decoration: none;
+}
+
+.header-parent{
+    height: 40px;
+    position: relative;
+}
+
+.header-parent > div{
+    height: 100%;
+    width:100%;
+    margin: 0 auto;
+    background-color: rgb(112,146,190);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > ul > li {
+    width:250px;
+    height:100%;
+    margin-right: 30px;
+    display: flex;
+    margin-bottom: 10px;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li > h3{
+    color:white;
+}
+
+
